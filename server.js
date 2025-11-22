@@ -1,5 +1,5 @@
 // server.js 파일 내용
-
+require('dotenv').config();
 // 1. 패키지 불러오기
 const express = require('express');
 const axios = require('axios');
